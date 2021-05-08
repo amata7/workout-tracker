@@ -11,7 +11,7 @@ router.get("/workouts", (req, res) => {
     });
 });
 
-router.put("/exercise", ({ body }, res) => {
+router.post("/exercise", ({ body }, res) => {
   db.Workout.create(body)
     .then((workoutdb) => {
       res.json(workoutdb);
@@ -21,5 +21,4 @@ router.put("/exercise", ({ body }, res) => {
     });
 });
 
-// how to aggregate fields an array using mongoose
 module.exports = router;
