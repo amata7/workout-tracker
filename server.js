@@ -25,7 +25,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", {
   useFindAndModify: false,
 });
 
-db.Workout.create({ name: "Workout" }).then((dbWorkouts) => {
+db.Workout.create({ name: "workoutdb" }).then((dbWorkouts) => {
   console.log(dbWorkouts);
 });
 
