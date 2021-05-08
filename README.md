@@ -1,61 +1,41 @@
-# Unit 17 NoSQL Homework: Workout Tracker
+# Workout Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+## Description
 
-## User Story
+Every good README has a descritpion of what goal the project accomplishes. The following section describes what this project does:
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+    This project should allow a user to take plan out workouts with different exercises for each day.
 
-## Business Context
+## Table of Contents
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+[Installation](#install) | [Usage](#usage)
 
-## Acceptance Criteria
+[Contribute](#contribute) | [Test](#test)
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+## Install
 
-The user should be able to:
+Sometimes the steps to get a project working can be confusing so it is important to give instructions on how to install your project. The following section describes this process:
 
-  * Add exercises to the most recent workout plan.
+    After cloning this project, you can run 'npm install' to get the required packages. Then you can run 'npm run seed' to get the template data from the seed file
 
-  * Add new exercises to a new workout plan.
+## Usage
 
-  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
+Since there could be several ways to input information into a project, it is important to state how it should be used. The following section describes how to use this project:
 
-  * View the total duration of each workout from the past seven workouts on the `stats` page.
+    This project doesnt have much functionality at the moment since the backend is still being worked on to be hooked up with the front end.
 
-> **Important:** Look into using a MongoDB aggregate function to dynamically add up and return the total duration for each workout. Check out the [MongoDB documentation on the $addFields](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/), the [MongoDB documentation on the $sum operator](https://docs.mongodb.com/manual/reference/operator/aggregation/sum/), and the [Mongoose documentation on aggregate functions](https://mongoosejs.com/docs/api.html#aggregate_Aggregate) to learn how it can be accomplished.
+## Contribute
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+Code is never really finished being added to, and this addition could come from developers other than the original creator. The following section describes how to contribute to this project:
 
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
+    This project could be contributed on by taking a look at the API routes to get them working properly with the frontend. The add exercise and complete workout buttons creating errors in the console.
 
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
+## Test
 
-## Commit Early and Often
+A person using this project might want to know what the tests are and how they are used to better understand it's functionality.The following section describes how to test this project:
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
+    This project can be tested by running 'npm run start' and using the console in the browser and terminal in VS code to see the ways that the frontend is expecting the backend to work
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+## Other Information
 
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
+The Github profile of the person who created this project is : https://github.com/amata7
